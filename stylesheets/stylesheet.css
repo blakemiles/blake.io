@@ -1,3 +1,27 @@
+body {
+  background-image: url()
+}
+
+#links a:link {
+  color: #000;
+}
+
+#links a:visited {
+  color: #000;
+}
+
+div {
+  text-color: #354546;
+  
+}
+
+#wall {
+  
+  background-color: #60646D;
+  opacity: .9;
+  max-width: 100%;
+  height: auto;
+}
 #selfie {
   display: block;
   float: right;
@@ -21,7 +45,13 @@
 }
 
 #headline {
-  background-color: #467332;
-  padding-top: 60px;
+  background-color: #467362;
+  padding-top: 80px;
+  border-radius: 11%;
+}
+
+#links {
+  background-color: #106B60;
+  opacity: 95%;
 }
 
