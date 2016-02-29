@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-  <title>Blake Miles - Digital Resume</title>
+  <title>digital resume - blake miles</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="stylesheets/stylesheet.css">
+  <link rel="stylesheet" href="stylesheet/stylesheet.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
@@ -27,18 +27,19 @@
           <li><a href="#">pics</a></li>
 
           <img src="http://blakemiles.github.io/blake.io/images/Me_TEDX_blck.PNG" id="selfie">
-      </div>
 
   </nav>
+  <div id="wall">
     <div class="text-right container-fluid" id="headline">
-      <div class="row col-sm-3">
-        <h1>blake miles</h1>
-        <h2>digital resume</h2>
+      <span>
+    <div class="row col-sm-10">
+      <h1>blake miles</h1>
+      <h2>digital resume</h2>
       </div>
   </div>
+  
 
-  <div class="container-fluid">
-   <div class="container col-sm-9">
+    <div class="container">
       <h4>Former Green Beret, Leader, Communicator, Connector, Writer, Programmer in Training
         </p>
       </h4>
@@ -51,25 +52,21 @@
         <li> Proven networker and gatekeeper for executive level leaders</ul>
       </li>
       </p>
-               
+    </div>
+
     <div class="container" id="links">
-      <span>
-        <h3 class="text-left">Links to my work</h3>
-          <ul class="nav-pills nav-stacked nav">
-            <li><a href="https://bitcoinmagazine.com/articles/i-m-a-former-green-beret-here-s-how-i-would-bring-down-bitcoin-1456165726">Bitcoin Magazine Article: I'm a Former Green Beret and Here's How I Would Bring Down Bitcoin</a>
-            <li><a href="http://www.sofrep.com/author/blake-miles">SOFREP.com - Special Operations Forces Report </a>
+      <h3 class="text-left">Links to my work</h3>
+      <ul class="nav-pills nav-stacked nav">
+        <li><a href="https://bitcoinmagazine.com/articles/i-m-a-former-green-beret-here-s-how-i-would-bring-down-bitcoin-1456165726">Bitcoin Magazine Article: I'm a Former Green Beret and Here's How I Would Bring Down Bitcoin</a>
+          <li><a href="http://www.sofrep.com/author/blake-miles">SOFREP.com - Special Operations Forces Report </a>
             <li><a href="https://www.linkedin.com/pulse/cryptocurrencies-unconventional-warfare-blake-miles?trk=prof-post/">Cryptocurrencies and Unconventional Warfare</a>
-              </li>
+            </li>
             <li><a href="https://www.linkedin.com/pulse/near-perfect-team-6-lessons-learned-moab-blake-miles?trk=prof-post">A Near Perfect Team: 6 Lessons Learned in Moab</a></li>
             <li><a href="https://www.zapchain.com/a/l/bitcoins-batteries-and-fake-dollar-bills/aaBSlNjN1G">Bitcoins, Batteries, and Fake Dollar Bills</a></li>
-          </ul>
-        </span>
-      </div>
-   </div>
-   <div class="container col-sm-3">
-    <a class="twitter-timeline" id="twitter" href="https://twitter.com/bmiles84" data-widget-id="704188503131684864">Tweets by @bmiles84</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </ul>
+    </div>
   </div>
-  </body>
+
+</body>
 
 </html>
